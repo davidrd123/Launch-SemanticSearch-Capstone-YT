@@ -24,7 +24,7 @@
 
 Derived from Travis Fischer's https://github.com/transitive-bullshit/yt-semantic-search, adapted to search the Launch School Capstone Presentations.
 
-Complementary to this is an app David Dickinson put together to view summaries of the Capstone Projects made from the video transcripts with GPT-3.5 and GPT-4. [Check it out here](https://launchschool-capstone-summaries.vercel.app/). 
+Complementary to this is an app David Dickinson put together to view summaries of the Capstone Projects made from the video transcripts with GPT-3.5 and GPT-4. [Check it out here](https://summarize-capstone-yt.streamlit.app/). 
 
 This project uses the latest models from [OpenAI](https://openai.com/) to build a semantic search index across every Capstone presentation from 2022 and 2023. It allows you to find the exact moments in each video where a topic was discussed with Google-level accuracy and find the exact clips you're interested in.
 
