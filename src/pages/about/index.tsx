@@ -11,25 +11,24 @@ import styles from './styles.module.css'
 const markdownContent = `
 ## Intro
 
-I love the [All-In Podcast](https://www.youtube.com/channel/UCESLZhusAkFfsNsApnjF_Cg). But search and discovery with podcasts can be really challenging.
+Derived from [Travis Fischer's All-In Podcast Semantic Search](https://github.com/transitive-bullshit/yt-semantic-search), adapted to search Launch School Youtube Videos of Capstone Project Presentations.
 
-I built this project to solve this problem... and I also wanted to play around with cool AI stuff. 😂
+Complementary to this is an app David Dickinson put together to view summaries of the Capstone Projects made from the video transcripts with GPT-3.5 and GPT-4. [Check it out here](https://launchschool-capstone-summaries.vercel.app/). 
 
-This project uses the latest models from [OpenAI](https://openai.com/) to build a semantic search index across every episode of the Pod. It allows you to find your favorite moments with Google-level accuracy and rewatch the exact clips you're interested in.
+This project uses the latest models from [OpenAI](https://openai.com/) to build a semantic search index across every Capstone presentation from 2022 and 2023. It allows you to find the exact moments in each video where a topic was discussed with Google-level accuracy and find the exact clips you're interested in.
 
-You can use it to power advanced search across _any YouTube channel or playlist_. The demo uses the [All-In Podcast](https://www.youtube.com/channel/UCESLZhusAkFfsNsApnjF_Cg) because it's my favorite 💕, but it's designed to work with any playlist.
+You can use it to power advanced search across _any YouTube channel or playlist_. 
 
 ## Example Queries
 
-- [sweater karen](/?query=sweater+karen)
-- [best advice for founders](/?query=best+advice+for+founders)
-- [poker story from last night](/?query=poker+story+from+last+night)
-- [crypto scam ponzi scheme](/?query=crypto+scam+ponzi+scheme)
-- [luxury sweater chamath](/?query=luxury+sweater+chamath)
-- [phil helmuth](/?query=phil+helmuth)
-- [intellectual honesty](/?query=intellectual+honesty)
-- [sbf ftx](/?query=sbf+ftx)
-- [science corner](/?query=science+corner)
+- [api load testing](/?query=api+load+testing)
+- [graphql observability](/?query=graphql+observability)
+- [elastic container service](/?query=elastic+container+service)
+- [automated canary deployments](/?query=automated+canary+deployments)
+- [kubernetes vs docker swarm](/?query=kubernetes+vs+docker+swarm)
+- [websockets](/?query=websockets)
+- [implementation challenges future work design decisions](/?query=implementation+challenges+future+work+design+decisions)
+
 
 ## How It Works
 

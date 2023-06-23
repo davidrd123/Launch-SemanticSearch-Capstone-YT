@@ -1,17 +1,17 @@
 <p align="center">
-  <a href="https://all-in-on-ai.vercel.app">
-    <img alt="Search the All-In Podcast using AI" src="/public/social.jpg" width="600">
+  <a href="https://launch-semantic-search-capstone-yt.vercel.app/">
+    <img alt="Search the Launch School Capstone Presentations using AI" src="/public/social.jpg" width="600">
   </a>
 </p>
 
 # YouTube Semantic Search <!-- omit in toc -->
 
-> OpenAI-powered semantic search for any YouTube playlist — featuring the [All-In Podcast](https://all-in-on-ai.vercel.app) 🔥
+> OpenAI-powered semantic search for any YouTube playlist — featuring the [Launch School Capstone Presentations](https://launch-semantic-search-capstone-yt.vercel.app/)
 
 [![Build Status](https://github.com/transitive-bullshit/yt-channel-search/actions/workflows/test.yml/badge.svg)](https://github.com/transitive-bullshit/yt-channel-search/actions/workflows/test.yml) [![MIT License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/transitive-bullshit/yt-channel-search/blob/main/license) [![Prettier Code Formatting](https://img.shields.io/badge/code_style-prettier-brightgreen.svg)](https://prettier.io)
 
 - [Intro](#intro)
-- [How to get started](#How-to-get-started)
+- [How to get started](#how-to-get-started)
 - [Example Queries](#example-queries)
 - [Screenshots](#screenshots)
 - [How It Works](#how-it-works)
@@ -22,13 +22,14 @@
 
 ## Intro
 
-I love the [All-In Podcast](https://www.youtube.com/channel/UCESLZhusAkFfsNsApnjF_Cg). But search and discovery with podcasts can be really challenging.
 
-I built this project to solve this problem... and I also wanted to play around with cool AI stuff. 😂
+Derived from Travis Fischer's https://github.com/transitive-bullshit/yt-semantic-search, adapted to search the Launch School Capstone Presentations.
 
-This project uses the latest models from [OpenAI](https://openai.com/) to build a semantic search index across every episode of the Pod. It allows you to find your favorite moments with Google-level accuracy and rewatch the exact clips you're interested in.
+Complementary to this is an app David Dickinson put together to view summaries of the Capstone Projects made from the video transcripts with GPT-3.5 and GPT-4. [Check it out here](https://launchschool-capstone-summaries.vercel.app/). 
 
-You can use it to power advanced search across _any YouTube channel or playlist_. The demo uses the [All-In Podcast](https://www.youtube.com/channel/UCESLZhusAkFfsNsApnjF_Cg) because it's my favorite 💕, but it's designed to work with any playlist.
+This project uses the latest models from [OpenAI](https://openai.com/) to build a semantic search index across every Capstone presentation from 2022 and 2023. It allows you to find the exact moments in each video where a topic was discussed with Google-level accuracy and find the exact clips you're interested in.
+
+You can use it to power advanced search across _any YouTube channel or playlist_. In this case, we're focused on the [Launch School Capstone Presentations](https://launch-semantic-search-capstone-yt.vercel.app/), but you can easily adapt this project to search any YouTube channel or playlist.
 
 ## How to get started
 - Clone the repository to your local machine.
@@ -44,15 +45,12 @@ Note that a few episodes may not have automated English transcriptions available
 
 ## Example Queries
 
-- [sweater karen](https://all-in-on-ai.vercel.app/?query=sweater+karen)
-- [best advice for founders](https://all-in-on-ai.vercel.app/?query=best+advice+for+founders)
-- [poker story from last night](https://all-in-on-ai.vercel.app/?query=poker+story+from+last+night)
-- [crypto scam ponzi scheme](https://all-in-on-ai.vercel.app/?query=crypto+scam+ponzi+scheme)
-- [luxury sweater chamath](https://all-in-on-ai.vercel.app/?query=luxury+sweater+chamath)
-- [phil helmuth](https://all-in-on-ai.vercel.app/?query=phil+helmuth)
-- [intellectual honesty](https://all-in-on-ai.vercel.app/?query=intellectual+honesty)
-- [sbf ftx](https://all-in-on-ai.vercel.app/?query=sbf+ftx)
-- [science corner](https://all-in-on-ai.vercel.app/?query=science+corner)
+- [api load testing](https://launch-semantic-search-capstone-yt.vercel.app/?query=api+load+testing)
+- [graphql observability](https://launch-semantic-search-capstone-yt.vercel.app/?query=graphql+observability)
+- [elastic container service](https://launch-semantic-search-capstone-yt.vercel.app/?query=elastic+container+service)
+- [kubernetes vs docker swarm](https://launch-semantic-search-capstone-yt.vercel.app/?query=kubernetes+vs+docker+swarm)
+- [automated canary deployments](https://launch-semantic-search-capstone-yt.vercel.app/?query=automated+canary+deployments)
+- [feature flags](https://launch-semantic-search-capstone-yt.vercel.app/?query=feature+flags)
 
 ## Screenshots
 

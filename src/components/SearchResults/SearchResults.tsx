@@ -61,7 +61,7 @@ export const EmptyQuery: React.FC = () => {
   return (
     <div className={styles.emptyResults}>
       <p>Search any topic in the Launch School Presentations from 2022-2023.</p>
-
+      <p>Also check out my Capstone Summaries using GPT-3.5 & GPT-4 </p>
       <p>
         Examples:{' '}
         <Link
