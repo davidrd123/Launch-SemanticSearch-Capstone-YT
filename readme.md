@@ -56,11 +56,11 @@ Note that a few episodes may not have automated English transcriptions available
 
 <p align="center">
   <a href="https://all-in-on-ai.vercel.app">
-    <img alt="Desktop light mode" src="/public/images/screenshot-desktop-light.jpg" width="45%">
+    <img alt="Desktop light mode" src="/public/images/screenshot-desktop-light.png" width="45%">
   </a>
 &nbsp; &nbsp; &nbsp; &nbsp;
   <a href="https://all-in-on-ai.vercel.app">
-    <img alt="Desktop dark mode" src="/public/images/screenshot-desktop-dark.jpg" width="45%">
+    <img alt="Desktop dark mode" src="/public/images/screenshot-desktop-dark.png" width="45%">
   </a>
 </p>
 
