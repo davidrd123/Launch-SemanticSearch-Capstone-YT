@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="68px" viewBox="0 0 96 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Cap</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-7.000000, -20.000000)">
+            <g id="Cap" transform="translate(7.000000, 20.000000)">
+                <polygon id="Path-4" fill="#363849" points="0.216032609 21.966013 85.1576087 30.3736315 85.1576087 34.1690691 48.3562047 65.0537309 11.2413949 49.5880766 11.2413949 31.9370582 0.109148551 26.5690503"></polygon>
+                <polygon id="Path" fill="#666877" points="47.4791667 46.1645408 47.4791667 41.7991997 0.21987517 21.9656671 47.946558 0.378560799 95.9393116 22.3034651 95.9393116 25.8106194"></polygon>
+                <polygon id="Path-3" fill="#666877" points="48.2749094 65.1768309 48.2749094 49.2756956 84.910779 34.1712107 84.910779 30.4419859 85.4148551 30.2263067 85.4148551 49.5860645"></polygon>
+                <ellipse id="Oval" fill="#FFFFFF" cx="48.2318841" cy="20.585034" rx="5.10144928" ry="3.00680272"></ellipse>
+                <polygon id="Path-2" fill="#F25858" points="49.5472147 23.601888 52.6483243 21.6353369 76.1830842 33.3894691 76.1830842 54.2042704 77.9694293 59.1896524 77.9694293 65.0479884 71.5160779 67.7837279 71.5088315 61.8684896 73.30899 55.5361793 73.3162364 35.1945947"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

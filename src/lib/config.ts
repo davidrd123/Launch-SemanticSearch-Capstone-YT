@@ -27,7 +27,7 @@ export const apiBaseUrl =
   isDev || !process.env.VERCEL_URL ? url : `https://${process.env.VERCEL_URL}`
 
 // these must all be absolute urls
-export const socialImageUrl = `${url}/social.jpg`
+export const socialImageUrl = `${url}/social.png`
 
 // ---
 

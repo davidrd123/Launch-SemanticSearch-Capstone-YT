@@ -8,7 +8,7 @@ import Link from 'next/link'
 import { LoadingSpinner } from '@/components/LoadingSpinner/LoadingSpinner'
 import { SearchResultsList } from '@/components/SearchResultsList/SearchResultsList'
 import { Search } from '@/lib/hooks/search'
-import socialImage from '@/public/social.jpg'
+import socialImage from '@/public/social.png'
 
 import styles from './styles.module.css'
 
@@ -60,52 +60,52 @@ export const EmptyQuery: React.FC = () => {
 
   return (
     <div className={styles.emptyResults}>
-      <p>Search any topic the besties have covered on the pod.</p>
+      <p>Search any topic in the Launch School Presentations from 2022-2023.</p>
 
       <p>
         Examples:{' '}
         <Link
           className='link'
-          href='/?query=sweater+karen'
+          href='/?query=api+load+testing'
           onClick={(e) => {
             e.preventDefault()
-            fakeNavigation('sweater karen')
+            fakeNavigation('api load testing')
           }}
         >
-          sweater karen
+          api load testing
         </Link>
         ,&nbsp;
         <Link
           className='link'
-          href='/?query=great+poker+story'
+          href='/?query=graphql+observability'
           onClick={(e) => {
             e.preventDefault()
-            fakeNavigation('great poker story')
+            fakeNavigation('graphql observability')
           }}
         >
-          great poker story
+          graphql observability
         </Link>
         ,&nbsp;
         <Link
           className='link'
-          href='/?query=crypto'
+          href='/?query=elastic+container+service'
           onClick={(e) => {
             e.preventDefault()
-            fakeNavigation('crypto')
+            fakeNavigation('elastic container service')
           }}
         >
-          crypto
+          elastic container service
         </Link>
         ,&nbsp;
         <Link
           className='link'
-          href='/?query=science+corner'
+          href='/?query=automated+canary+deployments'
           onClick={(e) => {
             e.preventDefault()
-            fakeNavigation('science corner')
+            fakeNavigation('automated canary deployments')
           }}
         >
-          science corner
+          automated canary deployments
         </Link>
       </p>
 
