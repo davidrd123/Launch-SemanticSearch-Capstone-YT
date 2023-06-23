@@ -61,7 +61,17 @@ export const EmptyQuery: React.FC = () => {
   return (
     <div className={styles.emptyResults}>
       <p>Search any topic in the Launch School Presentations from 2022-2023.</p>
-      <p>Also check out my Capstone Summaries using GPT-3.5 & GPT-4 </p>
+      {/* Make this link bold */}
+      <p>
+        Or check out my{' '}
+        <a
+          style={{ textDecoration: 'underline' }}
+          href='https://summarize-capstone-yt.streamlit.app/'
+        >
+          Streamlit app
+        </a>{' '}
+        to view summaries of the presentations made with GPT-3.5 & GPT-4{' '}
+      </p>
       <p>
         Examples:{' '}
         <Link
