@@ -15,7 +15,6 @@
 - [Example Queries](#example-queries)
 - [Screenshots](#screenshots)
 - [How It Works](#how-it-works)
-- [TODO](#todo)
 - [Feedback](#feedback)
 - [Credit](#credit)
 - [License](#license)
@@ -74,7 +73,7 @@ Under the hood, it uses:
 - [Vercel](https://vercel.com) - Hosting and API functions
 - [Next.js](https://nextjs.org) - React web framework
 
-We use Node.js and the [YouTube API v3](https://developers.google.com/youtube/v3/getting-started) to fetch the videos of our target playlist. In this case, we're focused on the [All-In Podcast Episodes Playlist](https://www.youtube.com/playlist?list=PLn5MTSAqaf8peDZQ57QkJBzewJU1aUokl), which contains 108 videos at the time of writing.
+We use Node.js and the [YouTube API v3](https://developers.google.com/youtube/v3/getting-started) to fetch the videos of our target playlist. In this case, we're focused on the [Launch School Capstone](https://www.youtube.com/playlist?list=PLn5MTSAqaf8peDZQ57QkJBzewJU1aUokl), which contains 108 videos at the time of writing.
 
 ```bash
 npx tsx src/bin/resolve-yt-playlist.ts
@@ -108,26 +107,20 @@ Note that thumbnail generation takes ~2 hours and requires a pretty stable inter
 
 The frontend is a [Next.js](https://nextjs.org) webapp deployed to [Vercel](https://vercel.com) that uses our Pinecone index as a primary data store.
 
-## TODO
-
-- Use [Whisper](https://github.com/m-bain/whisperX) for better transcriptions
-- Support sorting by recency vs relevancy
-
 ## Feedback
 
 Have an idea on how this webapp could be improved? Find a particularly fun search query?
 
-Feel free to send me feedback, either on [GitHub](https://github.com/transitive-bullshit/yt-semantic-search/issues/new) or [Twitter](https://twitter.com/transitive_bs). 💯
+Feel free to send me feedback, either on [GitHub](https://github.com/davidrd123/Launch-SemanticSearch-Capstone-YT/issues/new) or [Twitter](https://twitter.com/davidrd123). 💯
 
 ## Credit
 
 - Inspired by [Riley Tomasek's project](https://twitter.com/rileytomasek/status/1603854647575384067) for searching the [Huberman YouTube Channel](https://www.youtube.com/@hubermanlab)
-- Note that this project is not affiliated with the All-In Podcast. It just pulls data from their [YouTube channel](https://www.youtube.com/channel/UCESLZhusAkFfsNsApnjF_Cg) and processes it using AI.
+- Translated from Transitive Bullshit's [All-In Podcast Semantic Search](https://all-in-on-ai.vercel.app) project
+- Note that this project is not affiliated with Launch School. It just pulls data from their vidoes [YouTube channel](https://www.youtube.com/@launchschool) via a [playlist I set up](https://youtube.com/playlist?list=PLc9UY1kQQKC7hcWY-ObhWZiUI59CDWomy) and processes it using AI.
 
 ## License
 
 MIT © [Travis Fischer](https://transitivebullsh.it)
 
-If you found this project interesting, please consider [sponsoring me](https://github.com/sponsors/transitive-bullshit) or <a href="https://twitter.com/transitive_bs">following me on twitter <img src="https://storage.googleapis.com/saasify-assets/twitter-logo.svg" alt="twitter" height="24px" align="center"></a>
-
-The API and server costs add up over time, so if you can spare it, [sponsoring on Github](https://github.com/sponsors/transitive-bullshit) is greatly appreciated. 💕
+The API and server costs add up over time, so if you can spare it, [sponsoring on Github](https://github.com/sponsors/davidrd123) is greatly appreciated. 💕

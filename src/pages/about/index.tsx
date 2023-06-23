@@ -80,15 +80,13 @@ The frontend is a [Next.js](https://nextjs.org) webapp deployed to [Vercel](http
 
 Have an idea on how this webapp could be improved? Find a particularly fun search query?
 
-Feel free to send me feedback, either on [GitHub](https://github.com/transitive-bullshit/yt-semantic-search/issues/new) or [Twitter](https://twitter.com/transitive_bs). 💯
+Feel free to send me feedback, either on [[GitHub](https://github.com/davidrd123/Launch-SemanticSearch-Capstone-YT/issues/new) or [Twitter](https://twitter.com/davidrd123). 💯
 
 ## License
 
 This project is [open source](${config.githubRepoUrl}). MIT © [${config.author}](${config.twitterUrl})
 
-Support my open source work by [sponsoring me](${config.githubSponsorsUrl}) or <a href="${config.twitterUrl}">following me on twitter</a>. The API and server costs add up over time, so if you can spare it, [sponsoring me on Github](${config.githubSponsorsUrl}) is greatly appreciated. 💕
-
-**This project is not affiliated with the All-In Podcast**. It just pulls data from their [YouTube channel](https://www.youtube.com/channel/UCESLZhusAkFfsNsApnjF_Cg) and processes it using AI. The [All-In Podcast](https://www.allinpodcast.co/) is owned and operated by [Chamath Palihapitiya](https://twitter.com/chamath), [Jason Calacanis](https://twitter.com/jason), [David Sacks](https://twitter.com/DavidSacks), and [David Friedberg](https://twitter.com/friedberg).
+**This project is not affiliated with Launch School.** It just pulls data from their videos and transcripts.
 `
 
 export default function AboutPage({
