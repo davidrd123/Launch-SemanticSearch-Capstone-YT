@@ -13,7 +13,7 @@ const markdownContent = `
 
 Derived from [Travis Fischer's All-In Podcast Semantic Search](https://github.com/transitive-bullshit/yt-semantic-search), adapted to search Launch School Youtube Videos of Capstone Project Presentations.
 
-Complementary to this is a Streamlit app David Dickinson put together to view summaries of the Capstone Projects made from the video transcripts with GPT-3.5 and GPT-4. [Check it out here](https://summarize-capstone-yt.streamlit.app/). 
+Complementary to this is a Streamlit app David Dickinson put together to view summaries of the Capstone Projects made from the video transcripts with GPT-3.5 and GPT-4. [Check it out here](https://launch-summarize-capstone-yt.streamlit.app/). 
 
 This project uses the latest models from [OpenAI](https://openai.com/) to build a semantic search index across every Capstone presentation from 2022 and 2023. It allows you to find the exact moments in each video where a topic was discussed with Google-level accuracy and find the exact clips you're interested in.
 
@@ -53,7 +53,7 @@ We download the English transcripts for each episode using a hacky HTML scraping
 Once we have all of the transcripts and metadata downloaded locally, we pre-process each video's transcripts, breaking them up into reasonably sized chunks of ~100 tokens and fetch it's [text-embedding-ada-002](https://openai.com/blog/new-and-improved-embedding-model/) embedding from OpenAI. This results in ~200 embeddings per episode.
 
 All of these embeddings are then upserted into a [Pinecone](https://www.pinecone.io) index with a dimensionality of 1536. There are ~17,575 embeddings in total across ~108 episodes of the All-In Podcast.
-
+ 
 \`\`\`bash
 npx tsx src/bin/process-yt-playlist.ts
 \`\`\`

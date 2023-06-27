@@ -66,7 +66,7 @@ export const EmptyQuery: React.FC = () => {
         Or check out my{' '}
         <a
           style={{ textDecoration: 'underline' }}
-          href='https://summarize-capstone-yt.streamlit.app/'
+          href='https://launch-summarize-capstone-yt.streamlit.app/'
         >
           Streamlit app
         </a>{' '}
