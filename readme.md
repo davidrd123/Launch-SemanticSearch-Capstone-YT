@@ -73,7 +73,7 @@ Under the hood, it uses:
 - [Vercel](https://vercel.com) - Hosting and API functions
 - [Next.js](https://nextjs.org) - React web framework
 
-We use Node.js and the [YouTube API v3](https://developers.google.com/youtube/v3/getting-started) to fetch the videos of our target playlist. In this case, we're focused on the [Launch School Capstone](https://www.youtube.com/playlist?list=PLn5MTSAqaf8peDZQ57QkJBzewJU1aUokl), which contains 58 videos at the time of writing.
+We use Node.js and the [YouTube API v3](https://developers.google.com/youtube/v3/getting-started) to fetch the videos of our target playlist. In this case, we're focused on the [Launch School Capstone Presentations from 2020-2023](https://www.youtube.com/playlist?list=PLn5MTSAqaf8peDZQ57QkJBzewJU1aUokl), which contains 58 videos at the time of writing.
 
 ```bash
 npx tsx src/bin/resolve-yt-playlist.ts

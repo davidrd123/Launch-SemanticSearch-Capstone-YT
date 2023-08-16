@@ -11,11 +11,11 @@ import styles from './styles.module.css'
 const markdownContent = `
 ## Intro
 
-Derived from [Travis Fischer's All-In Podcast Semantic Search](https://github.com/transitive-bullshit/yt-semantic-search), adapted to search Launch School Youtube Videos of Capstone Project Presentations.
+Derived from [Travis Fischer's All-In Podcast Semantic Search](https://github.com/transitive-bullshit/yt-semantic-search), adapted to search Videos of Launch School Capstone Project Presentations.
 
 Complementary to this is a Streamlit app David Dickinson put together to view summaries of the Capstone Projects made from the video transcripts with GPT-3.5 and GPT-4. [Check it out here](https://launch-summarize-capstone-yt.streamlit.app/). 
 
-This project uses the latest models from [OpenAI](https://openai.com/) to build a semantic search index across every Capstone presentation from 2022 and 2023. It allows you to find the exact moments in each video where a topic was discussed with Google-level accuracy and find the exact clips you're interested in.
+This project uses the latest models from [OpenAI](https://openai.com/) to build a semantic search index across every Capstone presentation from 2020 to 2023. It allows you to find the exact moments in each video where a topic was discussed with Google-level accuracy and find the exact clips you're interested in.
 
 You can use it to power advanced search across _any YouTube channel or playlist_. 
 
@@ -42,7 +42,7 @@ Under the hood, it uses:
 - [Vercel](https://vercel.com) - Hosting and API functions
 - [Next.js](https://nextjs.org) - React web framework
 
-We use Node.js and the [YouTube API v3](https://developers.google.com/youtube/v3/getting-started) to fetch the videos of our target playlist. In this case, we're focused on the [All-In Podcast Episodes Playlist](https://www.youtube.com/playlist?list=PLn5MTSAqaf8peDZQ57QkJBzewJU1aUokl), which contains 108 videos at the time of writing.
+We use Node.js and the [YouTube API v3](https://developers.google.com/youtube/v3/getting-started) to fetch the videos of our target playlist. In this case, we're focused on the [Launch School Capstone Presentations Playlist](https://youtube.com/playlist?list=PLc9UY1kQQKC7hcWY-ObhWZiUI59CDWomy), which contains 58 videos at the time of writing.
 
 \`\`\`bash
 npx tsx src/bin/resolve-yt-playlist.ts
@@ -52,7 +52,7 @@ We download the English transcripts for each episode using a hacky HTML scraping
 
 Once we have all of the transcripts and metadata downloaded locally, we pre-process each video's transcripts, breaking them up into reasonably sized chunks of ~100 tokens and fetch it's [text-embedding-ada-002](https://openai.com/blog/new-and-improved-embedding-model/) embedding from OpenAI. This results in ~200 embeddings per episode.
 
-All of these embeddings are then upserted into a [Pinecone](https://www.pinecone.io) index with a dimensionality of 1536. There are ~17,575 embeddings in total across ~108 episodes of the All-In Podcast.
+All of these embeddings are then upserted into a [Pinecone](https://www.pinecone.io) index with a dimensionality of 1536. There are ~9,575 embeddings in total across ~58 Capstone Presentations.
  
 \`\`\`bash
 npx tsx src/bin/process-yt-playlist.ts
