@@ -48,7 +48,7 @@ function useSearch() {
   const body = React.useMemo<types.SearchQuery>(
     () => ({
       query: debouncedQuery,
-      limit: 25
+      limit: 50
     }),
     [debouncedQuery]
   )
