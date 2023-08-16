@@ -32,7 +32,7 @@ export async function getPlaylistDetails(
     const playlistItemsPage = await youtube.playlistItems.list({
       playlistId,
       part: ['id', 'contentDetails', 'snippet', 'status'],
-      maxResults: 100,
+      maxResults: 50,
       pageToken: playlistItemsPageToken
     })
 
