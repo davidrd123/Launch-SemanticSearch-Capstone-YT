@@ -23,6 +23,7 @@ async function main() {
     JSON.parse(await fs.readFile(`out/${playlistId}.json`, 'utf-8'))
 
   const storage = new Storage()
+  console.log('GOOGLE_STORAGE_BUCKET', process.env.GOOGLE_STORAGE_BUCKET)
   const bucket = process.env.GOOGLE_STORAGE_BUCKET
 
   await pMap(
