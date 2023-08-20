@@ -21,6 +21,7 @@ async function main() {
   })
 
   const playlistId = process.env.YOUTUBE_PLAYLIST_ID
+  console.log('playlistId', playlistId)
   const playlistDetailsWithTranscripts: types.PlaylistDetailsWithTranscripts =
     JSON.parse(await fs.readFile(`out/${playlistId}.json`, 'utf-8'))
 

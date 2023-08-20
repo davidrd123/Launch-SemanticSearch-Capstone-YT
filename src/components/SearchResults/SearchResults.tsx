@@ -60,7 +60,7 @@ export const EmptyQuery: React.FC = () => {
 
   return (
     <div className={styles.emptyResults}>
-      <p>Search any topic in the Launch School Presentations from 2022-2023.</p>
+      <p>Search any topic in the Launch School Presentations from 2020-2023.</p>
       {/* Make this link bold */}
       <p>
         Or check out my{' '}
